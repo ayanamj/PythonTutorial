@@ -1,0 +1,6 @@
+string= input("Enter a string: ")
+odd_str = string[1::2]
+even_str = string[0::2]
+print("Odd indices:", odd_str)
+print("Even indices:", even_str)
+    
