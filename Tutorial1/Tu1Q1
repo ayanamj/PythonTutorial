@@ -1,0 +1,6 @@
+time=int(input("Enter the time in seconds"))
+h=time//3600
+m=(time%3600)//60
+s=time%60
+print("Time in HH:MM:SS format")
+print(f"{h:02}:{m:02}:{s:02}")

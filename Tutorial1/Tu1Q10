@@ -1,0 +1,7 @@
+sumofeven=0
+number=int(input("Enter the number of elements: "))
+for i in range(number):
+    number=int(input(f"Enter number {i+1}: "))
+    if number%2==0:
+        sumofeven=sumofeven+number
+print(f"Sum of even numbers: {sumofeven}")

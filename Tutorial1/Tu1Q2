@@ -1,0 +1,8 @@
+from math import pi
+def circle(r):  
+    area= pi*r**2  
+    circum=2*pi*r  
+    return area,circum 
+r=int(input("Enter the radius of the circle: "))  
+area,circum=circle(r)  
+print(f"Area:{area:.2f},Circumference: {circum:.2f}")

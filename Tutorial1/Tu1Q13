@@ -1,0 +1,7 @@
+rev=0
+num=int(input("Enter a number"))
+while num!=0:
+ a=num%10
+ rev=rev*10+a
+ num=num//10
+print(f"reversed number : {rev}")
